@@ -1,0 +1,202 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  width: 100vw;
+}
+
+h4{
+    font-size: 12px;
+    color:white;
+    text-align: left;
+}
+h3{
+  font-size: 15px;
+  color:rgb(231, 228, 31);
+  text-align: center;
+  margin-top: -8px;
+  font-weight: bold;
+  
+}
+
+h5{
+  text-align: center;
+  font-size: 22px;
+}
+.leaflet-popup-content{
+    background: rgb(1, 24, 24);
+    color:white;
+    margin: 1px 0 0 ;
+    border-radius: 10px;
+    border: 0 solid rgb(241, 187, 38);
+    padding-left: 7px;
+    padding-top: 5px;
+    width: 170px;
+    height: 198px;
+}
+.leaflet-popup-content-wrapper{
+
+  border:2px solid rgb(231, 245, 33);
+  background-color: rgb(0, 14, 11);
+}
+.leaflet-popup-tip{
+  background:  rgb(231, 245, 33);
+  height: 18px;
+  border:1.5px solid red;
+}
+.legend {
+    padding: 6px 8px;
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #777a78cc;
+    border-radius: 8px;
+    border:1px solid #d32121;
+    line-height: 24px;
+    color: rgb(250, 245, 245);
+  }
+  .legend h4 {
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 12px 8px;
+    color: rgb(248, 241, 241);
+  }
+
+  .legend i {
+    width: 25px;
+    height: 18px;
+    border-radius: 2px;
+    float: left;
+    margin: 0 8px 0 0;
+    opacity: 1;
+  }
+
+  .leaflet-left {
+    width: 100%;
+  }
+
+  #info_text {
+    width: 100%;
+  }
+
+  .Title {
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Title h2 {
+    border:1px solid red;
+    background-color: rgb(3, 38, 58);
+    opacity: 1;
+    color: white;
+    border-radius: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    font-size: 22px;
+    width: 380px;
+    height: 40px;
+    text-align: center;
+  }
+
+  .container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .leaflet-control-attribution{
+    border-top:0.1px solid red;
+    border-left:0.1px solid red;
+    border-radius: 3px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+
+  .leaflet-control-scale-line{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 20px;
+    text-align: center;
+  }
+
+  .leaflet-container {
+    background-color: #d9e2eb;
+  }
+
+  .metadata{
+    background-color:#d9e2eb ;
+    padding-top: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    border:1px solid #e76d08;
+    box-shadow: 1px -0.3px 1px 1px;
+  }
+
+  .electionwebsite{
+    text-decoration: none;
+  }
+
+  .candiatephoto{
+    border: 0.1px solid rgb(243, 39, 12);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 7px 1px #616159;
+  }
+
+  .candidateslist a{
+    text-decoration: none;
+  }
+
+  .clickhere  {
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .checkmark{
+    font-size: 25px;
+    color:red;
+  }
+  .candiatephoto2{
+    border: 0.1px solid rgb(243, 39, 12);
+    border-radius: 50%;
+    height: 104px;
+    width: 98px;
+    box-shadow: 0px 0px 7px 1px #616159;
+  }
+
+  .candidatebio {
+    text-decoration: none;
+  }
+
+  h6{
+    border:0.1px solid red;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(3, 38, 58);
+    color: rgb(240, 240, 240);
+    padding-bottom: 3px;
+  }
+
+  .popupspace{
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+  u{
+    color:rgb(231, 228, 31);
+    font-size: 13.5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .main{
+    box-shadow: 0.5px -0.3px 1px 1px;
+  }
