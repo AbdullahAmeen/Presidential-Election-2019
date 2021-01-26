@@ -200,3 +200,20 @@ h5{
   .main{
     box-shadow: 0.5px -0.3px 1px 1px;
   }
+
+  .main{
+    box-shadow: 1px -0.3px 1px 1px;
+  }
+
+  .leaflet-tooltip {
+    background-color:transparent;
+    border:transparent;
+    color:white;
+    box-shadow: none;
+    padding-top: 8px;
+}
+
+.kandahar{
+  padding-top:15px;
+  margin-left: -28px;
+}
